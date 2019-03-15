@@ -3,7 +3,7 @@ require 'pry'
 class Artist
   extend Memorable
   extend Findable
-  include Paramble :: InstanceMethods
+  include Paramble::InstanceMethods
   
   attr_accessor :name
   attr_reader :songs
